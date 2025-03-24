@@ -19,7 +19,8 @@ def main():
     f_mkdir(f"../logs"); logging.basicConfig(filename=f'../logs/agent.log', filemode='w', level=logging.INFO, format='%(message)s')
 
     
-    seed = random.randint(1,1000000000000)
+    # seed = random.randint(1,1000000000000)
+    seed = 708371797307
     vradius = 5
     log_info(seed)
     biome_string = "forest"
@@ -52,15 +53,14 @@ def main():
     underground = False
     model_name=args.gpt_model_name
 
-    memory = Memory(openai_key=openai_key, use_history_workflow=False)
+    memory = Memory(openai_key=openai_key, model_name=model_name,use_history_workflow=False)
     patroller = Patroller(openai_key=openai_key, memory=memory, model_name=model_name)
     planner = Planner(openai_key=openai_key, memory=memory, model_name=model_name)
     
     # answer_method = active | caption
     # answer_model = mllm -> answer_mllm_url | gpt-vision -> gpt-4-vision-preview
-    percipient = Percipient(openai_key=openai_key, memory=memory, question_model_name=model_name,
-                            answer_method=args.answer_method, answer_model=args.answer_model, 
-                            answer_mllm_url=mllm_url, answer_gpt_name="gpt-4-vision-preview")
+    # now all model is gpt-4o
+    percipient = Percipient(openai_key=openai_key, memory=memory, question_model_name=model_name, answer_method=args.answer_method, answer_model=model_name, temperature=0)
 
     # sync the memory
     share_memory(memory=memory, events=events)
@@ -69,8 +69,9 @@ def main():
         task_list = json.load(f)
         for task_id, task_information in enumerate(task_list[::-1]):
 
-            every_task_max_retries = 300
+            every_task_max_retries = 3
             check_result = {}
+            # import pdb; pdb.set_trace()
 
             log_info(f"Task: { task_information['description'] }")
 

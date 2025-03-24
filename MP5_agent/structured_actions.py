@@ -1984,7 +1984,7 @@ def explore_above_ground_none(env,object,underground,max_try_steps=10000):
             prev_position = events['location_stats']['pos']
     
             if stuck>2:
-                print(f"stuck!!!")
+                print("\033[31mstuck!!!\033[0m")
                 stuck = 0
                 observation = ""
                 for i in range(events['voxels']['block_name'].shape[0]):

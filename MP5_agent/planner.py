@@ -1,4 +1,6 @@
 from utils import *
+from openai import OpenAI
+import httpx
 
 class Planner:
     def __init__(
@@ -9,17 +11,33 @@ class Planner:
         temperature=0
     ):
         os.environ["OPENAI_API_KEY"] = openai_key
+        # 设置HTTP代理
+        self.client = OpenAI(
+            api_key=openai_key,
+            http_client=httpx.Client(
+                proxy="http://127.0.0.1:7891"
+            )
+        )
+        self.model_name = model_name
+        self.temperature = temperature
+        self.memory = memory
+        assert self.memory is not None, "Please input memory"
+    
 
-        openai.api_base ="https://api.chatweb.plus/v1"
-
-        self.llm = ChatOpenAI(
-            model_name=model_name,
-            temperature=temperature
+    def llm(self, messages):
+        response = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[
+                {"role": "system", "content": messages["system"]},
+                {"role": "user", "content": messages["user"]}
+            ],  
+            temperature=self.temperature,
+            response_format={"type": "json_object"}
         )
 
-        self.memory = memory
-        assert  self.memory is not None, "Please input memory"
-    
+        return response.choices[0].message
+
+
     def get_workflow(self, task_information, underground, check_result, max_retries=5):
 
         if max_retries == 0:
@@ -54,11 +72,15 @@ class Planner:
                 A suggested recommendations: {check_result["suggestion"]}. 
                 re-plan your workflow. Remember to follow the response format."""
                 
-            messages = [
-                SystemMessage(content=structured_action_system),
-                HumanMessage(content=structured_action_query)
-            ]
+            # messages = [
+            #     SystemMessage(content=structured_action_system),
+            #     HumanMessage(content=structured_action_query)
+            # ]
 
+            messages = {
+                "system": structured_action_system,
+                "user": structured_action_query
+            }
             workflow_dict = self.llm(messages).content
             log_info(f"Create Workflow Result: {workflow_dict}")
 

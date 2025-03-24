@@ -1,11 +1,15 @@
 from utils import *
+from langchain_community.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings
+from openai import OpenAI
+import httpx
 
 class Memory:
     
     def __init__(
         self,
         openai_key,
-        model_name="gpt-3.5-turbo-0613",
+        model_name="gpt-4o",
         ckpt_dir="./",
         ckpt_id=0,
         use_history_workflow=False,
@@ -19,12 +23,8 @@ class Memory:
         self.feedback = []
 
         os.environ["OPENAI_API_KEY"] = openai_key
-        openai.api_base ="https://api.chatweb.plus/v1"
-        self.llm = ChatOpenAI(
-            model_name=model_name,
-            temperature=temperature
-        )
-
+        
+        self.temperature = temperature
         self.retrieval_top_k = retrieval_top_k
         self.ckpt_dir = ckpt_dir
         self.ckpt_id = ckpt_id
@@ -33,7 +33,10 @@ class Memory:
         f_mkdir(f"{self.ckpt_dir}/memory/workflow_vectordb_{self.ckpt_id}")
         self.workflow_vectordb = Chroma(
             collection_name=f"workflow_vectordb_{self.ckpt_id}",
-            embedding_function=OpenAIEmbeddings(),
+            embedding_function=OpenAIEmbeddings(
+                # openai_api_key=openai_key,
+                openai_proxy="http://127.0.0.1:7891"
+            ),
             persist_directory=f"{ckpt_dir}/memory/workflow_vectordb_{self.ckpt_id}",
         )
 

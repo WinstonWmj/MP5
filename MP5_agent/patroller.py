@@ -1,24 +1,40 @@
 from utils import *
+from openai import OpenAI
+import httpx
 
 class Patroller:
     def __init__(
         self,
         openai_key,
         memory,
-        model_name="gpt-3.5-turbo-0613",
+        model_name="gpt-4o",
         temperature=0
     ):
         os.environ["OPENAI_API_KEY"] = openai_key
-        openai.api_base ="https://api.chatweb.plus/v1"
-
-        self.llm = ChatOpenAI(
-            model_name=model_name,
-            temperature=temperature
+        # 设置HTTP代理
+        self.client = OpenAI(
+            api_key=openai_key,
+            http_client=httpx.Client(
+                proxy="http://127.0.0.1:7891"
+            )
         )
+        self.model_name = model_name
+        self.temperature = temperature
         self.memory = memory
 
         assert memory is not None, "Please input memory"
 
+    def llm(self, messages):
+        response = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[
+                {"role": "system", "content": messages["system"]},
+                {"role": "user", "content": messages["user"]}
+            ],
+            temperature=self.temperature
+        )
+        
+        return response.choices[0].message
 
     def check_task_success(self, task_information, max_retries=5):
         check_system = load_prompt("check_system")
@@ -28,10 +44,16 @@ class Patroller:
             inventory=self.memory.inventory
         )
 
-        messages = [
-            SystemMessage(content=check_system),
-            HumanMessage(content=check_query)
-        ]   
+        # messages = [
+        #     SystemMessage(content=check_system),
+        #     HumanMessage(content=check_query)
+        # ]   
+
+
+        messages = {
+            "system": check_system,
+            "user": check_query
+        }
 
         try:
             check_info = self.llm(messages).content

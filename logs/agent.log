@@ -1,0 +1,370 @@
+708371797307
+Starting Minecraft process: ['/tmp/tmpr46rac87/Minecraft/launchClient.sh', '-port', '12387', '-env', '-runDir', '/tmp/tmpr46rac87/Minecraft/run', '-seed', '1570745725']
+Launching watchdog daemonizer.
+Watchdog launched successfully.
+[11:31:12] [main/WARN]: The coremod com.microsoft.Malmo.OverclockingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[11:31:12] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[11:31:12] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[11:31:12] [main/WARN]: Reference map 'mixins.malmo.refmap.json' for mixins.overclocking.malmomod.json could not be read. If this is a development environment you can ignore this message
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [main/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:13] [Client thread/WARN]: @Shadow target mixins.overclocking.malmomod.json:MixinMinecraftServerRun::statusResponse is final but shadow is not decorated with @Final
+[11:31:13] [Client thread/WARN]: @Shadow target mixins.overclocking.malmomod.json:MixinMinecraftServerRun::LOG is final but shadow is not decorated with @Final
+[11:31:13] [Client thread/WARN]: Skipping bad option: lastServer:
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:13] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.input, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Thread-5/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:14] [Thread-5/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:15] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /tmp/tmpr46rac87/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[11:31:15] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /tmp/tmpr46rac87/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[11:31:15] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /tmp/tmpr46rac87/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[11:31:15] [Client thread/INFO]: [STDOUT]: [LOGTOPY] Performance directory not specified.
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl, but that path is defined and not secure
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[11:31:15] [Client thread/WARN]: @Shadow target mixins.overclocking.malmomod.json:MixinVec3d::xCoord is final but shadow is not decorated with @Final
+[11:31:15] [Client thread/WARN]: @Shadow target mixins.overclocking.malmomod.json:MixinVec3d::yCoord is final but shadow is not decorated with @Final
+[11:31:15] [Client thread/WARN]: @Shadow target mixins.overclocking.malmomod.json:MixinVec3d::zCoord is final but shadow is not decorated with @Final
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[11:31:15] [Thread-6/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.openal, but that path is defined and not secure
+[11:31:15] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:15] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /tmp/tmpr46rac87/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[11:31:15] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /tmp/tmpr46rac87/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[11:31:15] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: MalmoMod in /tmp/tmpr46rac87/Minecraft/build/libs/MalmoMod-0.37.0.jar
+[11:31:16] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[11:31:16] [Client thread/WARN]: Skipping bad option: lastServer:
+[11:31:16] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:16] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+[11:31:16] [Client thread/ERROR]: The jar file /home/ps/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar has a security seal for path org.lwjgl.opengl, but that path is defined and not secure
+Minecraft process ready
+Logging output of Minecraft to ./logs/mc_3387.log
+Attempting to quit: Malmo[None:3a4a66, proc=38320, addr=localhost:12387, locked=True]
+[11:31:22] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+Task: Find a pig during the daytime on the plains with a tree next to it.
+My inventory: {'dirt': 6.0, 'coal': 3.0}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+Create Workflow Result: {
+    "explanation": "",
+    "thoughts": "Since the task is to find a pig and we are already on the ground, we can directly proceed to search for a pig. There is no need for any tools or platforms, and our current inventory does not affect this task.",
+    "workflow": [
+        {"times": "1", "actions": [ {"name": "find", "args": {"obj": "pig"} } ]}
+    ]
+}
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: This image does not display any Minecraft creatures. It shows a view of the forest environment, including trees and grass.
+Current Environment Information: 
+- type: creature
+- info: This image does not display any Minecraft creatures. It shows a view of the forest environment, including trees and grass.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. The current environment information indicates that there are no creatures present, which means there is no pig in the scene. Therefore, the environment does not match the task requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image is displaying the texture of a Creeper, a well-known hostile mob in Minecraft.
+Current Environment Information: 
+- type: creature
+- info: The image is displaying the texture of a Creeper, a well-known hostile mob in Minecraft.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. However, the current environment information only mentions a Creeper, which is not a pig. Therefore, the current environment does not match the characteristics needed for the task.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: This image is displaying the texture of a Creeper, a well-known hostile mob in Minecraft.
+Current Environment Information: 
+- type: creature
+- info: This image is displaying the texture of a Creeper, a well-known hostile mob in Minecraft.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. However, the current environment information indicates the presence of a Creeper, which does not match the requirement of finding a pig. Therefore, I should stop active perception.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: This image doesn't display any Minecraft creatures. It shows a first-person view obscured by a green block texture, possibly indicating the player is looking closely at leaves or another green block type.
+Current Environment Information: 
+- type: creature
+- info: This image doesn't display any Minecraft creatures. It shows a first-person view obscured by a green block texture, possibly indicating the player is looking closely at leaves or another green block type.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. Since there are no creatures displayed in the image, it means there is no pig present. Therefore, the current environment does not match the task requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image is displaying a close-up view of a Creeper in Minecraft, characterized by the green and black pixelated pattern.
+Current Environment Information: 
+- type: creature
+- info: The image is displaying a close-up view of a Creeper in Minecraft, characterized by the green and black pixelated pattern.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. However, the current environment information shows a Creeper, not a pig. Therefore, the environment does not match the characteristics needed for the task.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image does not display any Minecraft creatures.
+Current Environment Information: 
+- type: creature
+- info: The image does not display any Minecraft creatures.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. Since there are no creatures displayed in the image, it means there is no pig present. Therefore, the current environment does not match the task requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image does not display any Minecraft creatures.
+Current Environment Information: 
+- type: creature
+- info: The image does not display any Minecraft creatures.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. Since there are no creatures displayed in the image, it means there is no pig present. Therefore, the current environment does not match the task requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: This image is displaying a close-up view of a Creeper, a well-known creature in Minecraft. The green and black pixelated pattern is characteristic of a Creeper's texture.
+Current Environment Information: 
+- type: creature
+- info: This image is displaying a close-up view of a Creeper, a well-known creature in Minecraft. The green and black pixelated pattern is characteristic of a Creeper's texture.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. The current environment information only mentions a Creeper, which does not match the requirement of finding a pig. Therefore, the current environment does not match the task's requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image displays a sheep in the distance near the trees.
+Current Environment Information: 
+- type: creature
+- info: The image displays a sheep in the distance near the trees.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. Currently, the environment shows a sheep near trees, which does not match the requirement of finding a pig. Therefore, I should stop active perception as the current environment does not match the task's requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image does not display any Minecraft creatures.
+Current Environment Information: 
+- type: creature
+- info: The image does not display any Minecraft creatures.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. Since there are no creatures displayed in the image, it means there is no pig present. Therefore, the current environment does not match the task requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image does not display any Minecraft creatures.
+Current Environment Information: 
+- type: creature
+- info: The image does not display any Minecraft creatures.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. Since there are no creatures displayed in the image, it means there is no pig present. Therefore, the current environment does not match the task requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image does not display any Minecraft creatures. It shows a landscape with a forest, water, and a view of the sun.
+Current Environment Information: 
+- type: creature
+- info: The image does not display any Minecraft creatures. It shows a landscape with a forest, water, and a view of the sun.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. The current environment does not display any Minecraft creatures, which means there is no pig present. Therefore, the current environment does not match the object's characteristics needed for the task.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image displays a sheep in the Minecraft environment.
+Current Environment Information: 
+- type: creature
+- info: The image displays a sheep in the Minecraft environment.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. Currently, the environment shows a sheep, not a pig, which does not match the task's requirement.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image does not display any Minecraft creatures. It shows a natural landscape with water, sand, grass, and trees.
+Current Environment Information: 
+- type: creature
+- info: The image does not display any Minecraft creatures. It shows a natural landscape with water, sand, grass, and trees.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. However, the current environment does not display any Minecraft creatures, including pigs. Therefore, the environment does not match the task requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image does not display any Minecraft creatures. It shows a forest landscape with trees, grass, and water.
+Current Environment Information: 
+- type: creature
+- info: The image does not display any Minecraft creatures. It shows a forest landscape with trees, grass, and water.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. However, the current environment does not display any Minecraft creatures, which means there is no pig present. Therefore, the current environment does not match the object's characteristics needed for the task.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: The image does not display any Minecraft creatures. It shows a natural landscape with trees, grass, sand, and water, but no creatures are visible.
+Current Environment Information: 
+- type: creature
+- info: The image does not display any Minecraft creatures. It shows a natural landscape with trees, grass, sand, and water, but no creatures are visible.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. Currently, there are no creatures visible in the environment, which means there is no pig present. Therefore, the current environment does not match the task requirements.***********
+
+Current Environment Information: 
+- None
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+GPT Question: What Minecraft creatures is this image displaying?
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+gpt-4o Answer: This image does not display any Minecraft creatures. It shows a forest environment with trees and grass blocks.
+Current Environment Information: 
+- type: creature
+- info: This image does not display any Minecraft creatures. It shows a forest environment with trees and grass blocks.
+
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+************Active Perception Failure: The task requires finding a pig during the daytime on the plains with a tree next to it. Currently, there are no creatures displayed in the image, which means there is no pig present. Therefore, the current environment does not match the task's requirements.***********
+

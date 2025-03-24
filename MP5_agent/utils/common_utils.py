@@ -7,9 +7,13 @@ import os
 import re
 from collections import Counter
 from langchain.chat_models import ChatOpenAI
-from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.schema import HumanMessage, SystemMessage
-from langchain.vectorstores import Chroma
+
+
+from langchain_community.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings  # 新的导入路径
+# from langchain.vectorstores import Chroma
+# from langchain.embeddings.openai import OpenAIEmbeddings
 
 def load_text(fpaths, by_lines=False):
     with open(fpaths, "r") as fp:

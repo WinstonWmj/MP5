@@ -1,3 +1,6 @@
+# claim
+This repository is a reproduction of the [[MP5](https://iranqin.github.io/MP5.github.io/)] repository. The main modification is to change all model calls in the agent folder to gpt-4o, whether it is percipient, planner, or patroller. Now, you only need to install minedojo and you can use bash to run the project easily.
+
 # MP5
 <p align="center"> <img src="Image/logo.png" height=100> </p>
 <div align="center">
